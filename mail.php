@@ -25,7 +25,7 @@ Your device was received by our technicians on ". $_GET["date"] . ". After diagn
 </html>";
 
 // More headers
-$headers .= 'From: <kevin.d@me.com>' . "\r\n";
+$headers .= 'From: <someone@github.org>' . "\r\n";
 $headers .= 'BCC: if@required.com' . "\r\n";
 $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
 
